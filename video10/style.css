@@ -1,0 +1,13 @@
+video {
+    border-radius: 10px;
+    height: 255px;
+}
+
+img {
+    height: 255px;
+    border-radius: 10px;
+}
+
+iframe {
+    border-radius: 10px;
+}
