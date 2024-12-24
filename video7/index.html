@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - let's learn it</title>
+</head>
+
+<body>
+    <h1>Form to apply for the sigma web development</h1>
+    <form action="actionfile" method="post">
+        <!-- Normal input tag -->
+        <div>
+            <label for="username">User name</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" pattern="[a-zA-Z0-9]+">
+        </div>
+
+        <!-- radio input -->
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <!-- Checkbox input -->
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to our newsletter</label>
+        </div>
+
+        <!-- text box input - textarea -->
+        <div>
+            <label for="comment">Comment</label>
+            <br>
+            <textarea type="text" rows="10" cols="15" id="comment" name="comment"
+                placeholder="Enter your comment here"></textarea>
+        </div>
+
+        <!-- select value from the dropdown menu -->
+        <div>
+            <label for="fruit">Favrouit fruit: </label>
+            <select name="fruit" id="fruit">
+                <option value="mango">Mango</option>
+                <option value="apple">Apple</option>
+                <option value="cherry">Cherry</option>
+                <option value="grapsh">Grapsh</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
